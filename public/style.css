@@ -1,0 +1,32 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.game-container {
+    border: 1px solid black;
+}
+
+.ball {
+    border: 1px solid black;
+}
+
+.user-paddle {
+    position:absolute;
+    border-left: 20px solid grey;
+    border-right: 20px solid rgb(112, 112, 112);
+    border-top: 50px solid rgb(150, 150, 150);
+    border-bottom: 50px solid rgb(75, 75, 75);
+    /* border: 1px solid black; */
+}
+
+
+.pc-paddle {
+    position:absolute;
+    border-left: 20px solid grey;
+    border-right: 20px solid rgb(112, 112, 112);
+    border-top: 50px solid rgb(150, 150, 150);
+    border-bottom: 50px solid rgb(75, 75, 75);
+    /* border: 1px solid black; */
+}
